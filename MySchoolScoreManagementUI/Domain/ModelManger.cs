@@ -19,7 +19,6 @@ namespace MySchoolScoreManagementUI.Domain
             SchoolYears.CollectionChanged += SchoolYearCollectionChanged;
         }
 
-
         public ObservableCollection<SchoolYear> SchoolYears { get; } = new ObservableCollection<SchoolYear>();
 
         public ObservableCollection<TreeNode> Nodes { get; set;  } = new ObservableCollection<TreeNode> ();
