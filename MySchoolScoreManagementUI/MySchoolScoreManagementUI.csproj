@@ -37,6 +37,7 @@
     <ApplicationIcon>Presentation\Resources\Images\Application.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Xpf.Grid.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -79,6 +80,7 @@
     <Compile Include="Domain\ModelBase.cs" />
     <Compile Include="Domain\SchoolYear.cs" />
     <Compile Include="Domain\Student.cs" />
+    <Compile Include="Domain\TreeNode.cs" />
     <Compile Include="Helpers\MathHelper.cs" />
     <Compile Include="Presentation\Views\ShellWindow.xaml.cs">
       <DependentUpon>ShellWindow.xaml</DependentUpon>
@@ -101,6 +103,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

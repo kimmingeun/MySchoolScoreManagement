@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MySchoolScoreManagementUI.App" Collapsed="true">
+    <Position X="19" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAAAAAAAAAAAAEAAAEAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MySchoolScoreManagementUI.Applications.Controllers.ApplicationController" Collapsed="true">
+    <Position X="20.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAQQAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Applications\Controllers\ApplicationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MySchoolScoreManagementUI.Applications.ViewModels.ShellViewModel" Collapsed="true">
+    <Position X="19" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAABAAAAAAAAEAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Applications\ViewModels\ShellViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MySchoolScoreManagementUI.Domain.ClassRoom" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAEAAAAAAAAIAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Domain\ClassRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MySchoolScoreManagementUI.Domain.ModelBase" Collapsed="true">
+    <Position X="13" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\ModelBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MySchoolScoreManagementUI.Domain.ModelManger" Collapsed="true">
+    <Position X="19" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAABAAAAAAAEAAAgAAQAAAAARAgAAAAAAAg=</HashCode>
+      <FileName>Domain\ModelManger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MySchoolScoreManagementUI.Domain.SchoolYear" Collapsed="true">
+    <Position X="16.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Domain\SchoolYear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MySchoolScoreManagementUI.Domain.Student" Collapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAGAAAAAAAAgAAQAAAABgAAAAAABAAAA=</HashCode>
+      <FileName>Domain\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MySchoolScoreManagementUI.Domain.TreeNode" Collapsed="true">
+    <Position X="14.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAEAAAAgAAEACAAAAIAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Domain\TreeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MySchoolScoreManagementUI.Domain.TreeChildSelector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\TreeNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MySchoolScoreManagementUI.Helpers.MathHelper" Collapsed="true">
+    <Position X="22.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\MathHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MySchoolScoreManagementUI.Presentation.Views.ShellWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Presentation\Views\ShellWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MySchoolScoreManagementUI.Properties.Resources" Collapsed="true">
+    <Position X="20.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MySchoolScoreManagementUI.Properties.Settings" Collapsed="true">
+    <Position X="22.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MySchoolScoreManagementUI.Applications.Views.IShellView" Collapsed="true">
+    <Position X="19" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Applications\Views\IShellView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
