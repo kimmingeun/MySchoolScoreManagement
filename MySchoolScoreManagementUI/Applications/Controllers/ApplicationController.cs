@@ -1,4 +1,5 @@
 ﻿using MySchoolScoreManagementUI.Applications.ViewModels;
+using MySchoolScoreManagementUI.Domain;
 using System.ComponentModel.Composition;
 
 namespace MySchoolScoreManagementUI.Applications.Controllers
@@ -17,8 +18,9 @@ namespace MySchoolScoreManagementUI.Applications.Controllers
 
 
 
-        public void Initialize()
+        public void Initialize() //프로그램이 시작될 때 가장 먼저 호출되는 부분 : 초기화 여기서 실행
         {
+            ModelManger.Instance.ReadData();
         }
 
         public void Run()
@@ -28,6 +30,7 @@ namespace MySchoolScoreManagementUI.Applications.Controllers
 
         public void Shutdown()
         {
+
         }
     }
 }

@@ -64,7 +64,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Domain\Class1.cs" />
+    <Compile Include="Domain\ModelManger.cs" />
     <Page Include="Presentation\Resources\ImageResources.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -75,6 +75,11 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\ClassRoom.cs" />
+    <Compile Include="Domain\ModelBase.cs" />
+    <Compile Include="Domain\SchoolYear.cs" />
+    <Compile Include="Domain\Student.cs" />
+    <Compile Include="Helpers\MathHelper.cs" />
     <Compile Include="Presentation\Views\ShellWindow.xaml.cs">
       <DependentUpon>ShellWindow.xaml</DependentUpon>
     </Compile>
@@ -104,7 +109,6 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Helpers\" />
     <Folder Include="Presentation\Converters\" />
   </ItemGroup>
   <ItemGroup>
