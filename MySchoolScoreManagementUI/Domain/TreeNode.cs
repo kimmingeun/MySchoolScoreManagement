@@ -31,7 +31,15 @@ namespace MySchoolScoreManagementUI.Domain
         public bool IsSelected
         {
             get => _isSelected;
-            set => SetProperty(ref _isSelected, value);
+            set
+            {
+                SetProperty(ref _isSelected, value);
+
+                foreach (var subNode in SubNodes)
+                {
+                    subNode.IsSelected = value;
+                }
+            }
         }
 
         public void AddSubNode(TreeNode child)

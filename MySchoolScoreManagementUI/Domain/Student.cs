@@ -42,5 +42,8 @@ namespace MySchoolScoreManagementUI.Domain
 			get => _classRoom;
 			set => SetProperty(ref _classRoom, value);
 		}
+
+		public override string ToString() => $"{ClassRoom.SchoolYear}, {ClassRoom}, {Name}, {ScoreMid1}, {ScoreFin1}, {ScoreMid2}, {ScoreFin2}";
+
 	}
 }

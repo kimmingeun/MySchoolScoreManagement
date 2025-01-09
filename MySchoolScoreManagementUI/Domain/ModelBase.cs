@@ -18,5 +18,7 @@ namespace MySchoolScoreManagementUI.Domain
 			get => _name; //get 접근자 : _name 필드 값 반환, 데이터 읽기
 			set => SetProperty(ref _name, value); //set 접근자 : _name 필드 값 변경
 		}
+
+		public override string ToString() => Name;
 	}
 }
